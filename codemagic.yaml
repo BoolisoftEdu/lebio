@@ -1,5 +1,13 @@
 workflows:
-    sample-workflow:
-        name: BoolisoftEdu
-        max_build_duration: 120
-        instance_type: mac_mini_m1
+  my-workflow:
+    scripts:
+      - name: Run iOS tests
+        script: |
+          set -e # exit on first failed command
+
+          xcode-project run-tests \
+              --workspace ${XCODE_WORKSPACE?} \
+              --scheme ${XCODE_SCHEME?} \
+              --device "iPhone 12"
+        test_report: build/ios/test/*.xml
+
