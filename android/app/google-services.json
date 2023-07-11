@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "341660560632",
+    "project_id": "onemarkettogo",
+    "storage_bucket": "onemarkettogo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341660560632:android:a19ff5d4d66fc0465e9f0d",
+        "android_client_info": {
+          "package_name": "com.boolisoft.togo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341660560632-q17j7qc47jp1o8kpl6l0civ648nrig6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGW35umFev3TKatyfXbKMm-FD6Gsdp-Ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341660560632-q17j7qc47jp1o8kpl6l0civ648nrig6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
